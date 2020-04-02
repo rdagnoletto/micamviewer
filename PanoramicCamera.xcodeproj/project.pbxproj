@@ -1,0 +1,495 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		AF03C6341AC12EF90074D418 /* EastWestVidLongTrim.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = AF03C6331AC12EF90074D418 /* EastWestVidLongTrim.mp4 */; };
+		AF03C63E1AC134040074D418 /* CoreAudio.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AF03C63D1AC134040074D418 /* CoreAudio.framework */; };
+		AF03C6401AC1340A0074D418 /* CoreAudioKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AF03C63F1AC1340A0074D418 /* CoreAudioKit.framework */; };
+		AF03C6451AC137CF0074D418 /* EastWest_W.wav in Resources */ = {isa = PBXBuildFile; fileRef = AF03C6411AC137CF0074D418 /* EastWest_W.wav */; };
+		AF03C6461AC137CF0074D418 /* EastWest_X.wav in Resources */ = {isa = PBXBuildFile; fileRef = AF03C6421AC137CF0074D418 /* EastWest_X.wav */; };
+		AF03C6471AC137CF0074D418 /* EastWest_Y.wav in Resources */ = {isa = PBXBuildFile; fileRef = AF03C6431AC137CF0074D418 /* EastWest_Y.wav */; };
+		AF03C6481AC137CF0074D418 /* EastWest_Z.wav in Resources */ = {isa = PBXBuildFile; fileRef = AF03C6441AC137CF0074D418 /* EastWest_Z.wav */; };
+		AF47187E1A841B9500076C12 /* test1.png in Resources */ = {isa = PBXBuildFile; fileRef = AF47187B1A841B9500076C12 /* test1.png */; };
+		AF47187F1A841B9500076C12 /* test2.png in Resources */ = {isa = PBXBuildFile; fileRef = AF47187C1A841B9500076C12 /* test2.png */; };
+		AF4718801A841B9500076C12 /* test3.png in Resources */ = {isa = PBXBuildFile; fileRef = AF47187D1A841B9500076C12 /* test3.png */; };
+		AF6B835F1A958236005647EC /* 360vid.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = AF6B835E1A958236005647EC /* 360vid.mp4 */; };
+		AF6B83611A958264005647EC /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AF6B83601A958264005647EC /* AVFoundation.framework */; };
+		AF6B83631A958269005647EC /* AVKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AF6B83621A958269005647EC /* AVKit.framework */; };
+		AFF9F1D01A83EFFC007772CA /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = AFF9F1CF1A83EFFC007772CA /* main.m */; };
+		AFF9F1D31A83EFFC007772CA /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = AFF9F1D21A83EFFC007772CA /* AppDelegate.m */; };
+		AFF9F1D61A83EFFC007772CA /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AFF9F1D51A83EFFC007772CA /* ViewController.m */; };
+		AFF9F1D91A83EFFC007772CA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AFF9F1D71A83EFFC007772CA /* Main.storyboard */; };
+		AFF9F1DB1A83EFFC007772CA /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AFF9F1DA1A83EFFC007772CA /* Images.xcassets */; };
+		AFF9F1DE1A83EFFC007772CA /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = AFF9F1DC1A83EFFC007772CA /* LaunchScreen.xib */; };
+		AFF9F1EA1A83EFFC007772CA /* PanoramicCameraTests.m in Sources */ = {isa = PBXBuildFile; fileRef = AFF9F1E91A83EFFC007772CA /* PanoramicCameraTests.m */; };
+		AFF9F1F41A83F166007772CA /* testimage.jpg in Resources */ = {isa = PBXBuildFile; fileRef = AFF9F1F31A83F166007772CA /* testimage.jpg */; };
+		AFF9F1F71A840034007772CA /* AAPanoView.m in Sources */ = {isa = PBXBuildFile; fileRef = AFF9F1F61A840034007772CA /* AAPanoView.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		AFF9F1E41A83EFFC007772CA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = AFF9F1C21A83EFFC007772CA /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = AFF9F1C91A83EFFC007772CA;
+			remoteInfo = PanoramicCamera;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		AF03C6331AC12EF90074D418 /* EastWestVidLongTrim.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = EastWestVidLongTrim.mp4; sourceTree = "<group>"; };
+		AF03C63D1AC134040074D418 /* CoreAudio.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreAudio.framework; path = System/Library/Frameworks/CoreAudio.framework; sourceTree = SDKROOT; };
+		AF03C63F1AC1340A0074D418 /* CoreAudioKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreAudioKit.framework; path = System/Library/Frameworks/CoreAudioKit.framework; sourceTree = SDKROOT; };
+		AF03C6411AC137CF0074D418 /* EastWest_W.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = EastWest_W.wav; sourceTree = "<group>"; };
+		AF03C6421AC137CF0074D418 /* EastWest_X.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = EastWest_X.wav; sourceTree = "<group>"; };
+		AF03C6431AC137CF0074D418 /* EastWest_Y.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = EastWest_Y.wav; sourceTree = "<group>"; };
+		AF03C6441AC137CF0074D418 /* EastWest_Z.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = EastWest_Z.wav; sourceTree = "<group>"; };
+		AF47187B1A841B9500076C12 /* test1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = test1.png; sourceTree = "<group>"; };
+		AF47187C1A841B9500076C12 /* test2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = test2.png; sourceTree = "<group>"; };
+		AF47187D1A841B9500076C12 /* test3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = test3.png; sourceTree = "<group>"; };
+		AF6B835E1A958236005647EC /* 360vid.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = 360vid.mp4; sourceTree = "<group>"; };
+		AF6B83601A958264005647EC /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+		AF6B83621A958269005647EC /* AVKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVKit.framework; path = System/Library/Frameworks/AVKit.framework; sourceTree = SDKROOT; };
+		AFF9F1CA1A83EFFC007772CA /* PanoramicCamera.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PanoramicCamera.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		AFF9F1CE1A83EFFC007772CA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AFF9F1CF1A83EFFC007772CA /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		AFF9F1D11A83EFFC007772CA /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		AFF9F1D21A83EFFC007772CA /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		AFF9F1D41A83EFFC007772CA /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		AFF9F1D51A83EFFC007772CA /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		AFF9F1D81A83EFFC007772CA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		AFF9F1DA1A83EFFC007772CA /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		AFF9F1DD1A83EFFC007772CA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		AFF9F1E31A83EFFC007772CA /* PanoramicCameraTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PanoramicCameraTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		AFF9F1E81A83EFFC007772CA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AFF9F1E91A83EFFC007772CA /* PanoramicCameraTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PanoramicCameraTests.m; sourceTree = "<group>"; };
+		AFF9F1F31A83F166007772CA /* testimage.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = testimage.jpg; sourceTree = "<group>"; };
+		AFF9F1F51A840034007772CA /* AAPanoView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AAPanoView.h; sourceTree = "<group>"; };
+		AFF9F1F61A840034007772CA /* AAPanoView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AAPanoView.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		AFF9F1C71A83EFFC007772CA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AF03C6401AC1340A0074D418 /* CoreAudioKit.framework in Frameworks */,
+				AF03C63E1AC134040074D418 /* CoreAudio.framework in Frameworks */,
+				AF6B83631A958269005647EC /* AVKit.framework in Frameworks */,
+				AF6B83611A958264005647EC /* AVFoundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AFF9F1E01A83EFFC007772CA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		AFF9F1C11A83EFFC007772CA = {
+			isa = PBXGroup;
+			children = (
+				AF03C63F1AC1340A0074D418 /* CoreAudioKit.framework */,
+				AF03C63D1AC134040074D418 /* CoreAudio.framework */,
+				AF6B83621A958269005647EC /* AVKit.framework */,
+				AF6B83601A958264005647EC /* AVFoundation.framework */,
+				AFF9F1CC1A83EFFC007772CA /* PanoramicCamera */,
+				AFF9F1E61A83EFFC007772CA /* PanoramicCameraTests */,
+				AFF9F1CB1A83EFFC007772CA /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		AFF9F1CB1A83EFFC007772CA /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				AFF9F1CA1A83EFFC007772CA /* PanoramicCamera.app */,
+				AFF9F1E31A83EFFC007772CA /* PanoramicCameraTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		AFF9F1CC1A83EFFC007772CA /* PanoramicCamera */ = {
+			isa = PBXGroup;
+			children = (
+				AFF9F1D11A83EFFC007772CA /* AppDelegate.h */,
+				AFF9F1D21A83EFFC007772CA /* AppDelegate.m */,
+				AF6B835E1A958236005647EC /* 360vid.mp4 */,
+				AF03C6331AC12EF90074D418 /* EastWestVidLongTrim.mp4 */,
+				AFF9F1D41A83EFFC007772CA /* ViewController.h */,
+				AFF9F1D51A83EFFC007772CA /* ViewController.m */,
+				AF03C6411AC137CF0074D418 /* EastWest_W.wav */,
+				AF03C6421AC137CF0074D418 /* EastWest_X.wav */,
+				AF03C6431AC137CF0074D418 /* EastWest_Y.wav */,
+				AF03C6441AC137CF0074D418 /* EastWest_Z.wav */,
+				AF47187B1A841B9500076C12 /* test1.png */,
+				AF47187C1A841B9500076C12 /* test2.png */,
+				AF47187D1A841B9500076C12 /* test3.png */,
+				AFF9F1F51A840034007772CA /* AAPanoView.h */,
+				AFF9F1F61A840034007772CA /* AAPanoView.m */,
+				AFF9F1D71A83EFFC007772CA /* Main.storyboard */,
+				AFF9F1DA1A83EFFC007772CA /* Images.xcassets */,
+				AFF9F1F31A83F166007772CA /* testimage.jpg */,
+				AFF9F1DC1A83EFFC007772CA /* LaunchScreen.xib */,
+				AFF9F1CD1A83EFFC007772CA /* Supporting Files */,
+			);
+			path = PanoramicCamera;
+			sourceTree = "<group>";
+		};
+		AFF9F1CD1A83EFFC007772CA /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				AFF9F1CE1A83EFFC007772CA /* Info.plist */,
+				AFF9F1CF1A83EFFC007772CA /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		AFF9F1E61A83EFFC007772CA /* PanoramicCameraTests */ = {
+			isa = PBXGroup;
+			children = (
+				AFF9F1E91A83EFFC007772CA /* PanoramicCameraTests.m */,
+				AFF9F1E71A83EFFC007772CA /* Supporting Files */,
+			);
+			path = PanoramicCameraTests;
+			sourceTree = "<group>";
+		};
+		AFF9F1E71A83EFFC007772CA /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				AFF9F1E81A83EFFC007772CA /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		AFF9F1C91A83EFFC007772CA /* PanoramicCamera */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AFF9F1ED1A83EFFC007772CA /* Build configuration list for PBXNativeTarget "PanoramicCamera" */;
+			buildPhases = (
+				AFF9F1C61A83EFFC007772CA /* Sources */,
+				AFF9F1C71A83EFFC007772CA /* Frameworks */,
+				AFF9F1C81A83EFFC007772CA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = PanoramicCamera;
+			productName = PanoramicCamera;
+			productReference = AFF9F1CA1A83EFFC007772CA /* PanoramicCamera.app */;
+			productType = "com.apple.product-type.application";
+		};
+		AFF9F1E21A83EFFC007772CA /* PanoramicCameraTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AFF9F1F01A83EFFC007772CA /* Build configuration list for PBXNativeTarget "PanoramicCameraTests" */;
+			buildPhases = (
+				AFF9F1DF1A83EFFC007772CA /* Sources */,
+				AFF9F1E01A83EFFC007772CA /* Frameworks */,
+				AFF9F1E11A83EFFC007772CA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				AFF9F1E51A83EFFC007772CA /* PBXTargetDependency */,
+			);
+			name = PanoramicCameraTests;
+			productName = PanoramicCameraTests;
+			productReference = AFF9F1E31A83EFFC007772CA /* PanoramicCameraTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		AFF9F1C21A83EFFC007772CA /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0610;
+				ORGANIZATIONNAME = robagn;
+				TargetAttributes = {
+					AFF9F1C91A83EFFC007772CA = {
+						CreatedOnToolsVersion = 6.1.1;
+					};
+					AFF9F1E21A83EFFC007772CA = {
+						CreatedOnToolsVersion = 6.1.1;
+						TestTargetID = AFF9F1C91A83EFFC007772CA;
+					};
+				};
+			};
+			buildConfigurationList = AFF9F1C51A83EFFC007772CA /* Build configuration list for PBXProject "PanoramicCamera" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = AFF9F1C11A83EFFC007772CA;
+			productRefGroup = AFF9F1CB1A83EFFC007772CA /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				AFF9F1C91A83EFFC007772CA /* PanoramicCamera */,
+				AFF9F1E21A83EFFC007772CA /* PanoramicCameraTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		AFF9F1C81A83EFFC007772CA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AFF9F1D91A83EFFC007772CA /* Main.storyboard in Resources */,
+				AF03C6471AC137CF0074D418 /* EastWest_Y.wav in Resources */,
+				AFF9F1DE1A83EFFC007772CA /* LaunchScreen.xib in Resources */,
+				AF6B835F1A958236005647EC /* 360vid.mp4 in Resources */,
+				AF47187F1A841B9500076C12 /* test2.png in Resources */,
+				AFF9F1F41A83F166007772CA /* testimage.jpg in Resources */,
+				AF03C6341AC12EF90074D418 /* EastWestVidLongTrim.mp4 in Resources */,
+				AF03C6461AC137CF0074D418 /* EastWest_X.wav in Resources */,
+				AF47187E1A841B9500076C12 /* test1.png in Resources */,
+				AF03C6451AC137CF0074D418 /* EastWest_W.wav in Resources */,
+				AFF9F1DB1A83EFFC007772CA /* Images.xcassets in Resources */,
+				AF03C6481AC137CF0074D418 /* EastWest_Z.wav in Resources */,
+				AF4718801A841B9500076C12 /* test3.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AFF9F1E11A83EFFC007772CA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		AFF9F1C61A83EFFC007772CA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AFF9F1D61A83EFFC007772CA /* ViewController.m in Sources */,
+				AFF9F1D31A83EFFC007772CA /* AppDelegate.m in Sources */,
+				AFF9F1F71A840034007772CA /* AAPanoView.m in Sources */,
+				AFF9F1D01A83EFFC007772CA /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AFF9F1DF1A83EFFC007772CA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AFF9F1EA1A83EFFC007772CA /* PanoramicCameraTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		AFF9F1E51A83EFFC007772CA /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = AFF9F1C91A83EFFC007772CA /* PanoramicCamera */;
+			targetProxy = AFF9F1E41A83EFFC007772CA /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		AFF9F1D71A83EFFC007772CA /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AFF9F1D81A83EFFC007772CA /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		AFF9F1DC1A83EFFC007772CA /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AFF9F1DD1A83EFFC007772CA /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		AFF9F1EB1A83EFFC007772CA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		AFF9F1EC1A83EFFC007772CA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		AFF9F1EE1A83EFFC007772CA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = PanoramicCamera/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		AFF9F1EF1A83EFFC007772CA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = PanoramicCamera/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		AFF9F1F11A83EFFC007772CA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = PanoramicCameraTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/PanoramicCamera.app/PanoramicCamera";
+			};
+			name = Debug;
+		};
+		AFF9F1F21A83EFFC007772CA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = PanoramicCameraTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/PanoramicCamera.app/PanoramicCamera";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		AFF9F1C51A83EFFC007772CA /* Build configuration list for PBXProject "PanoramicCamera" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AFF9F1EB1A83EFFC007772CA /* Debug */,
+				AFF9F1EC1A83EFFC007772CA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AFF9F1ED1A83EFFC007772CA /* Build configuration list for PBXNativeTarget "PanoramicCamera" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AFF9F1EE1A83EFFC007772CA /* Debug */,
+				AFF9F1EF1A83EFFC007772CA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AFF9F1F01A83EFFC007772CA /* Build configuration list for PBXNativeTarget "PanoramicCameraTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AFF9F1F11A83EFFC007772CA /* Debug */,
+				AFF9F1F21A83EFFC007772CA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = AFF9F1C21A83EFFC007772CA /* Project object */;
+}
